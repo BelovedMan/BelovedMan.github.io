@@ -1,0 +1,141 @@
+#head1 {
+    display: flex;
+    font-family: Arial, sans-serif;
+ justify-content: space-between;
+
+
+    width: 640px;
+    color: #707070;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+
+}
+
+.name {
+    align-self: center;
+    border-bottom: 1px solid #3583b0;
+    font-size: 28px;
+    margin: 10px;
+}
+
+#info {
+    display: flex;
+    font-family: Arial, sans-serif ;
+    border: 1px solid #999999;
+    width: 650px;
+    height: 694px;
+   margin-left: 50px;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+#itemALL {
+
+    margin: 20px;
+}
+
+.info1 {
+    line-height:1.3;
+    height:130px;
+    width: 272px;
+    position: absolute;
+    top: 147px;
+    left: 370px;
+}
+
+.info2 {
+    line-height:1.3;
+    height:140px;
+    width: 272px;
+    position: absolute;
+    top: 290px;
+    left: 370px;
+
+}
+
+.photo {
+    margin-top: 10px;
+    margin-left: 35px;
+    height:290px;
+    width: 225px;
+
+}
+
+.photo1 {color: red;
+    height:60px;
+    width: 30px;
+    position: absolute;
+    top: 460px;
+    left: 110px;
+
+}
+
+.photo2 {
+    color: red;
+    height:60px;
+    width: 30px;
+    position: absolute;
+    top: 460px;
+    left: 165px;
+}
+
+.photo3 {
+    color: red;
+    height:60px;
+    width: 30px;
+    position: absolute;
+    top: 460px;
+    left: 220px;
+
+}
+
+.photo4 {
+    color: red;
+    height:60px;
+    width: 30px;
+    position: absolute;
+    top: 460px;
+    left: 277px;
+}
+
+.sell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20.55pt;
+    color: rgba(255, 255, 255, 0.91);
+    background: rgba(240, 9, 16, 0.4);
+    position: absolute;
+    left: 50px;
+    top: 54px;
+    border-radius: 50%;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    margin: 9px;
+
+}
+
+.lastInfo {
+    height:130px;
+    width: 540px;
+    position: absolute;
+    top: 580px;
+    left: 106px;
+}
+
+#fontLast {
+    font-family: Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
