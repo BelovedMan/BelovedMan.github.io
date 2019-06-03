@@ -1,0 +1,47 @@
+
+.section-2 {
+    display: flex;
+    max-width: 1600px;
+    height: 550px;
+    background: linear-gradient(to right, rgba(17, 13, 48, 0.91), rgba(48, 34, 93, 0.87)),
+    url(../img/img-section-2.png) no-repeat center;
+    flex-direction: column;
+}
+
+.video-block {
+    display: flex;
+    margin: auto;
+
+}
+
+.video-block_white {
+    color: white;
+
+}
+
+.video-block_font {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 13pt;
+}
+
+.video-block__img-circle {
+
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+.video-block__img-triangle {
+    width: 105px;
+    height: 105px;
+}
+
+.video-block__start-video-open{
+display: none;
+    width:50%;
+}

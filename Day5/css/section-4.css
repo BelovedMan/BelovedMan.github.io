@@ -1,0 +1,116 @@
+
+.section-4 {
+    display: flex;
+    max-width: 1600px;
+    height: 710px;
+    background: linear-gradient(to right, rgba(17, 13, 48, 0.91), rgba(48, 34, 93, 0.87)),
+    url(../img/img-section-4.png) no-repeat center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.section-4__title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin-top: auto;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.section-4__text {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.section-4__title_color {
+    color: white;
+}
+
+.section-4__text_color {
+    color: white;
+}
+
+.section-4__strip_grey {
+    border: 1px solid #494462;
+
+}
+
+.section-4__strip {
+    width: 58px;
+    align-self: center;
+    margin-top: 15px;
+    margin-bottom: auto;
+}
+
+.section-4__down-text {
+    font-family: 'Roboto', serif;
+    font-weight: 300;
+    margin-top: auto;
+}
+
+.photo-block {
+    display: flex;
+    text-align: center;
+    max-width: 700px;
+
+}
+
+.photo-block__photo {
+
+    max-height: 230px;
+    max-width: 220px;
+
+}
+
+.photo-block__item {
+    margin: 10px;
+    color: white;
+}
+
+.photo-block__text {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid rgba(229, 229, 231, 0.24);
+}
+
+.photo-block__name {
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1pt;
+}
+
+.photo-block__work {
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.section-4__link a {
+    display: flex;
+    text-decoration: none;
+    color: rgba(0, 224, 207, 0.8);
+    font-family: 'Hammersmith One', sans-serif;
+    border: 1px solid rgba(0, 224, 207, 0.8);
+    padding: 5px 9px 5px 9px;
+    border-radius: 3px;
+    width: max-content;
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+
+.section-4__link a:hover{
+    transition:0.7s;
+    color:white;
+    background: rgba(0, 224, 207, 0.8);
+
+
+}

@@ -1,0 +1,109 @@
+
+
+.section-5 {
+    display: flex;
+    max-width: 1600px;
+    margin: auto;
+    flex-direction: column;
+
+}
+
+
+.section-5__top {
+
+    display: flex;
+    width: 60%;
+    min-width: min-content;
+    margin: 4% auto 3.5% auto;
+
+}
+
+.section-5__title {
+
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    margin-right: 40px;
+}
+
+.section-5__dribble {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+}
+
+.section-5__dribble_color {
+    color: black;
+
+}
+
+
+.section-5__dribble_position {
+    margin-left: 15px;
+}
+
+
+.section-5__img-block {
+    display: flex;
+    margin: auto;
+    max-width: 100%;
+}
+
+
+
+.section-5__wrapper-img-block {
+    width:100%;
+}
+
+.section-5__for-height-img-block {
+    position:relative;
+    width:100%;
+    padding-bottom:11%;
+}
+
+.section-5__img-block {
+    display:flex;
+    position:absolute;
+    width:100%;
+    height:100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-5__img {
+
+    width: 100%;
+    height:100%;
+
+}
+
+.section-5__img-open{
+    width: 16.666%;
+    height:100%;
+}
+
+
+.section-5__link a {
+    display: flex;
+    text-decoration: none;
+    color: rgba(0, 224, 207, 0.8);
+    font-family: 'Hammersmith One', sans-serif;
+    border: 1px solid rgba(0, 224, 207, 0.8);
+    padding: 5px 9px 5px 9px;
+    border-radius: 1px;
+    width: max-content;
+    margin: 13% auto 3% auto;
+
+}
+
+.section-5__link a:hover{
+    transition:0.7s;
+    color:white;
+    background:rgba(0, 224, 207, 0.8);
+
+
+}
