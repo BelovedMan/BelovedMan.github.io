@@ -1,0 +1,335 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    margin-top: 35px;
+    background: #f5f7fa;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-container
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    width: 1200px;
+    height: 1500px;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+    
+    margin:auto;
+}
+
+
+
+
+/* -------sidebar------- */
+
+
+
+.sidebar
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #1e2939;
+    width: 370px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.img-container
+{
+    height: 354px;
+    width: 370px;
+}
+
+.contact-container
+{
+    color: #ffffff;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.contact-container-tittle
+{
+    margin-bottom: 20px;
+}
+.contact-container-field
+{
+    font-weight: 700;
+    margin-right: 6px;
+}
+.contact-links
+{  
+    color: #7a818a;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* ------- tech ------- */
+
+.tech-skills-container
+{
+    margin-left: 40px;
+    color: white;
+}
+.tech-skills-tittle 
+{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.tech-skills-ul
+{
+    color: #ff6b08;
+    margin-left: 21px;  
+}
+.tech-skills-text
+{
+    color: white;
+}
+
+/* -------soft------- */
+
+.soft-skills-container 
+{
+    margin-left: 40px;
+    margin-top: 40px;
+    color: white;
+}
+
+.soft-skills-tittle
+{
+
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.soft-skills-ul
+{
+
+    color: #ff6b08;
+    margin-left: 21px;
+
+}
+
+.soft-skills-text
+
+{
+
+    color:white;
+}
+
+
+/* -------about me------- */
+.about-me-main-info-cantainer
+{
+    width: 520px;
+    text-align: justify;
+}
+
+.about-me-position    
+{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.about-me-name
+{
+    color: #000000;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.about-me-text   
+{  
+    color: #595959;
+}
+
+
+.about-me-container
+{
+    padding-top: 110px;
+    padding-bottom: 110px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+
+/* -------projects------- */
+
+.projects-container
+{
+    color:black;
+    margin-top: 60px;
+    margin-bottom: 52px;
+    
+    
+}
+
+.projects-container-tittle
+{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    
+
+}
+.projects-container-ol
+{
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    margin-left: 17px;
+
+}
+
+.projects-container-ref
+{
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.42px;
+    text-decoration: none;
+}
+
+.projects-container-ref1
+{
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.42px;
+    text-decoration: none;
+}
+
+.projects-container-ref1:hover
+{
+    background: linear-gradient(45deg, #287599 33%, #0D61BC 66%, #8AA9D6);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.projects-container-ref:hover
+{
+    background: linear-gradient(45deg, #287599 33%, #0D61BC 66%, #8AA9D6);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.projects-container-points
+{
+    color: #a8a8a8;
+
+}
+
+.projects-container-bracket
+{
+    font-weight: 700;
+    letter-spacing: 0.42px;
+}
+
+.projects-container-skills
+{
+    color: #595959;
+    font-weight: 400;
+    letter-spacing: 0.42px;
+}
+
+
+/* ------- Work experience ------- */
+
+.work-experience-tittle
+{
+    margin-bottom: 19px;
+    font-size: 22px;
+    font-weight: 700;
+    color:black;
+}
+
+.work-experience-about-company
+{
+    margin-top: 24px;
+    color:black;
+}
+
+.work-experience-job-position
+{
+    margin-bottom: 9px;
+}
+
+.work-experience-company
+{
+    color: #ff6b08;
+}
+
+.work-experience-time
+{
+    color: #acacac;
+    font-size: 12.5px;
+    font-weight: 400;
+    
+    
+}
+
+.work-experience-about-work
+{
+    margin-top: 9px;
+    
+}
+
+.work-experience-li
+{
+    margin-left:20px;
+    color:#595959;
+}
+
+.work-experience-about-work-tittle
+{
+    margin-bottom: 4px;
+    margin-top: 4px;
+    font-size: 15px;
+}
+
+
+/* ------- Education ------- */
+
+.education-continer
+{
+    margin-top: 55px;
+    color:black;
+}
+
+.education-tittle
+{
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 6px;
+}
+
+.education-university
+{
+    margin-top:15px;
+    color: #ff6b08; 
+}
+
+.education-spec
+{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+.education-time
+{
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+}
